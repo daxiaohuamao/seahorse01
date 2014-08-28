@@ -7,3 +7,11 @@ Feature: As a: User
     Given a key
     When I visit http://www.baidu.com
     Then I should check the url
+
+    Given a key
+    When I visit http://www.google.com
+    Then I should check the url
+
+    Given a key
+    When I choose http://www.baiduaaa.com
+    Then I should check the url
